@@ -77,7 +77,7 @@ print(model.summary())
 # ### Now let us train LeNet on our MNIST Dataset
 # Training Parameters
 batch_size = 128
-epochs = 10
+epochs = 1
 
 history = model.fit(x_train, y_train,
           batch_size=batch_size,
